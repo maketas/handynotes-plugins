@@ -13,7 +13,7 @@ local Flag = ns.node.Flag
 local Rare = ns.node.Rare
 local Scoutpack = ns.node.Scoutpack
 local Treasure = ns.node.Treasure
--- local PetBattle = ns.node.PetBattle
+local PetBattle = ns.node.PetBattle
 
 local Achievement = ns.reward.Achievement
 -- local Mount = ns.reward.Mount
@@ -444,12 +444,12 @@ map.nodes[82055012] = Scoutpack()
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[] = PetBattle({
---     id = 196264,
---     rewards = {Achievement({id = 16464, criteria = 55485})}
--- }) -- Haniko
+map.nodes[39028289] = PetBattle({
+    id = 196264,
+    rewards = {Achievement({id = 16464, criteria = 55485})}
+}) -- Haniko
 
--- map.nodes[] = PetBattle({
---     id = 189376,
---     rewards = {Achievement({id = 16464, criteria = 55488})}
--- }) -- Swog
+map.nodes[26239233] = PetBattle({
+    id = 189376,
+    rewards = {Achievement({id = 16464, criteria = 55488})}
+}) -- Swog
